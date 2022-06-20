@@ -184,8 +184,14 @@ Lorem Ipsum
 ===============
 */
 h3 {
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-weight: 300;
   color: var(--clr-primary-1);
+}
+span.title {
+  text-transform: uppercase;
+  color: var(--clr-red-dark);
+  font-weight: 900;
 }
 .lorem-form {
   text-transform: capitalize;
